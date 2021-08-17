@@ -1,7 +1,6 @@
 class BasePasswordManager:
     def __init__(self):
         self.old_passwords = []
-        print('Inside')
 
     def get_password(self):
         if len(self.old_passwords):
